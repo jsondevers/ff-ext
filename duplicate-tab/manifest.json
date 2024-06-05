@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Duplicate Tab",
+  "version": "1.0",
+  "description": "Duplicate the current tab with Ctrl+Shift+L.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Duplicate the current tab"
+    }
+  }
+}
+
